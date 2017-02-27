@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		23F64B9C345BCC5049E7A2C4 /* libPods-TRZXMyCustomerTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D648E4422E72BD8E78EBEEDC /* libPods-TRZXMyCustomerTests.a */; };
 		76AC78481E64083400A882F1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 76AC78471E64083400A882F1 /* main.m */; };
 		76AC784B1E64083400A882F1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 76AC784A1E64083400A882F1 /* AppDelegate.m */; };
 		76AC784E1E64083400A882F1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76AC784D1E64083400A882F1 /* ViewController.m */; };
@@ -15,6 +16,17 @@
 		76AC78561E64083400A882F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76AC78541E64083400A882F1 /* LaunchScreen.storyboard */; };
 		76AC78611E64083400A882F1 /* TRZXMyCustomerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 76AC78601E64083400A882F1 /* TRZXMyCustomerTests.m */; };
 		76AC786C1E64083400A882F1 /* TRZXMyCustomerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 76AC786B1E64083400A882F1 /* TRZXMyCustomerUITests.m */; };
+		76AC787C1E640AA900A882F1 /* TRZXMyCustomerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76AC787B1E640AA900A882F1 /* TRZXMyCustomerViewController.m */; };
+		76AC78801E640B4300A882F1 /* TRMyCustomerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 76AC787E1E640B4300A882F1 /* TRMyCustomerCell.m */; };
+		76AC78811E640B4300A882F1 /* TRMyCustomerCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 76AC787F1E640B4300A882F1 /* TRMyCustomerCell.xib */; };
+		76AC78841E640B5B00A882F1 /* TRMyCustomerModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 76AC78831E640B5B00A882F1 /* TRMyCustomerModel.m */; };
+		76AC78871E640B8B00A882F1 /* TRZXCustomerViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 76AC78861E640B8B00A882F1 /* TRZXCustomerViewModel.m */; };
+		76AC788C1E640EA700A882F1 /* CTMediator+MyCustomer.m in Sources */ = {isa = PBXBuildFile; fileRef = 76AC788B1E640EA700A882F1 /* CTMediator+MyCustomer.m */; };
+		76AC788F1E640EB900A882F1 /* Target_MyCustomer.m in Sources */ = {isa = PBXBuildFile; fileRef = 76AC788E1E640EB900A882F1 /* Target_MyCustomer.m */; };
+		76AC78921E64145900A882F1 /* UIDevice+rh_Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 76AC78911E64145900A882F1 /* UIDevice+rh_Frame.m */; };
+		76AC78991E641DCF00A882F1 /* TRZXDVSwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = 76AC78981E641DCF00A882F1 /* TRZXDVSwitch.m */; };
+		E275D887761968E35B9A0A75 /* libPods-TRZXMyCustomerUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DCF4C1F19607D436DC9BF11 /* libPods-TRZXMyCustomerUITests.a */; };
+		FB1D58F392C390A6F5362A5B /* libPods-TRZXMyCustomer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D47033BC2377B9D3D362546 /* libPods-TRZXMyCustomer.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +47,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		088BA9E20CA94D7383BACFD7 /* Pods-TRZXMyCustomerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TRZXMyCustomerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TRZXMyCustomerTests/Pods-TRZXMyCustomerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		234A9A3973C3A6E42BB81428 /* Pods-TRZXMyCustomerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TRZXMyCustomerUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TRZXMyCustomerUITests/Pods-TRZXMyCustomerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3F4D63863364E71FD296317B /* Pods-TRZXMyCustomer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TRZXMyCustomer.release.xcconfig"; path = "Pods/Target Support Files/Pods-TRZXMyCustomer/Pods-TRZXMyCustomer.release.xcconfig"; sourceTree = "<group>"; };
+		54073DC7A4F6091C4CF4FAB2 /* Pods-TRZXMyCustomerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TRZXMyCustomerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TRZXMyCustomerTests/Pods-TRZXMyCustomerTests.release.xcconfig"; sourceTree = "<group>"; };
+		5D47033BC2377B9D3D362546 /* libPods-TRZXMyCustomer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TRZXMyCustomer.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		76AC78431E64083400A882F1 /* TRZXMyCustomer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TRZXMyCustomer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		76AC78471E64083400A882F1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		76AC78491E64083400A882F1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +68,28 @@
 		76AC78671E64083400A882F1 /* TRZXMyCustomerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TRZXMyCustomerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		76AC786B1E64083400A882F1 /* TRZXMyCustomerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TRZXMyCustomerUITests.m; sourceTree = "<group>"; };
 		76AC786D1E64083400A882F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76AC787A1E640AA900A882F1 /* TRZXMyCustomerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRZXMyCustomerViewController.h; sourceTree = "<group>"; };
+		76AC787B1E640AA900A882F1 /* TRZXMyCustomerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRZXMyCustomerViewController.m; sourceTree = "<group>"; };
+		76AC787D1E640B4300A882F1 /* TRMyCustomerCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRMyCustomerCell.h; sourceTree = "<group>"; };
+		76AC787E1E640B4300A882F1 /* TRMyCustomerCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRMyCustomerCell.m; sourceTree = "<group>"; };
+		76AC787F1E640B4300A882F1 /* TRMyCustomerCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TRMyCustomerCell.xib; sourceTree = "<group>"; };
+		76AC78821E640B5B00A882F1 /* TRMyCustomerModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRMyCustomerModel.h; sourceTree = "<group>"; };
+		76AC78831E640B5B00A882F1 /* TRMyCustomerModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRMyCustomerModel.m; sourceTree = "<group>"; };
+		76AC78851E640B8B00A882F1 /* TRZXCustomerViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRZXCustomerViewModel.h; sourceTree = "<group>"; };
+		76AC78861E640B8B00A882F1 /* TRZXCustomerViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRZXCustomerViewModel.m; sourceTree = "<group>"; };
+		76AC78891E640C1700A882F1 /* TRZXMyCustomerHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TRZXMyCustomerHeader.h; sourceTree = "<group>"; };
+		76AC788A1E640EA700A882F1 /* CTMediator+MyCustomer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CTMediator+MyCustomer.h"; sourceTree = "<group>"; };
+		76AC788B1E640EA700A882F1 /* CTMediator+MyCustomer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CTMediator+MyCustomer.m"; sourceTree = "<group>"; };
+		76AC788D1E640EB900A882F1 /* Target_MyCustomer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Target_MyCustomer.h; sourceTree = "<group>"; };
+		76AC788E1E640EB900A882F1 /* Target_MyCustomer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Target_MyCustomer.m; sourceTree = "<group>"; };
+		76AC78901E64145900A882F1 /* UIDevice+rh_Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+rh_Frame.h"; sourceTree = "<group>"; };
+		76AC78911E64145900A882F1 /* UIDevice+rh_Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+rh_Frame.m"; sourceTree = "<group>"; };
+		76AC78971E641DCF00A882F1 /* TRZXDVSwitch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRZXDVSwitch.h; sourceTree = "<group>"; };
+		76AC78981E641DCF00A882F1 /* TRZXDVSwitch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRZXDVSwitch.m; sourceTree = "<group>"; };
+		78706A64703611AFDECEBEBF /* Pods-TRZXMyCustomer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TRZXMyCustomer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TRZXMyCustomer/Pods-TRZXMyCustomer.debug.xcconfig"; sourceTree = "<group>"; };
+		7ECD1E55E9B19B0F58D048EE /* Pods-TRZXMyCustomerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TRZXMyCustomerUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TRZXMyCustomerUITests/Pods-TRZXMyCustomerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8DCF4C1F19607D436DC9BF11 /* libPods-TRZXMyCustomerUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TRZXMyCustomerUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D648E4422E72BD8E78EBEEDC /* libPods-TRZXMyCustomerTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TRZXMyCustomerTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +97,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB1D58F392C390A6F5362A5B /* libPods-TRZXMyCustomer.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +105,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23F64B9C345BCC5049E7A2C4 /* libPods-TRZXMyCustomerTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +113,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E275D887761968E35B9A0A75 /* libPods-TRZXMyCustomerUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1427834423FCDF128B0D1693 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				78706A64703611AFDECEBEBF /* Pods-TRZXMyCustomer.debug.xcconfig */,
+				3F4D63863364E71FD296317B /* Pods-TRZXMyCustomer.release.xcconfig */,
+				088BA9E20CA94D7383BACFD7 /* Pods-TRZXMyCustomerTests.debug.xcconfig */,
+				54073DC7A4F6091C4CF4FAB2 /* Pods-TRZXMyCustomerTests.release.xcconfig */,
+				234A9A3973C3A6E42BB81428 /* Pods-TRZXMyCustomerUITests.debug.xcconfig */,
+				7ECD1E55E9B19B0F58D048EE /* Pods-TRZXMyCustomerUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		76AC783A1E64083400A882F1 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +140,8 @@
 				76AC785F1E64083400A882F1 /* TRZXMyCustomerTests */,
 				76AC786A1E64083400A882F1 /* TRZXMyCustomerUITests */,
 				76AC78441E64083400A882F1 /* Products */,
+				1427834423FCDF128B0D1693 /* Pods */,
+				FC50CCFE5F260FE3517DC264 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +162,7 @@
 				76AC784A1E64083400A882F1 /* AppDelegate.m */,
 				76AC784C1E64083400A882F1 /* ViewController.h */,
 				76AC784D1E64083400A882F1 /* ViewController.m */,
+				76AC78791E640A7B00A882F1 /* TRZXMyCustomer */,
 				76AC784F1E64083400A882F1 /* Main.storyboard */,
 				76AC78521E64083400A882F1 /* Assets.xcassets */,
 				76AC78541E64083400A882F1 /* LaunchScreen.storyboard */,
@@ -140,6 +198,41 @@
 			path = TRZXMyCustomerUITests;
 			sourceTree = "<group>";
 		};
+		76AC78791E640A7B00A882F1 /* TRZXMyCustomer */ = {
+			isa = PBXGroup;
+			children = (
+				76AC787A1E640AA900A882F1 /* TRZXMyCustomerViewController.h */,
+				76AC787B1E640AA900A882F1 /* TRZXMyCustomerViewController.m */,
+				76AC787D1E640B4300A882F1 /* TRMyCustomerCell.h */,
+				76AC787E1E640B4300A882F1 /* TRMyCustomerCell.m */,
+				76AC787F1E640B4300A882F1 /* TRMyCustomerCell.xib */,
+				76AC78821E640B5B00A882F1 /* TRMyCustomerModel.h */,
+				76AC78831E640B5B00A882F1 /* TRMyCustomerModel.m */,
+				76AC78851E640B8B00A882F1 /* TRZXCustomerViewModel.h */,
+				76AC78861E640B8B00A882F1 /* TRZXCustomerViewModel.m */,
+				76AC78891E640C1700A882F1 /* TRZXMyCustomerHeader.h */,
+				76AC788A1E640EA700A882F1 /* CTMediator+MyCustomer.h */,
+				76AC788B1E640EA700A882F1 /* CTMediator+MyCustomer.m */,
+				76AC788D1E640EB900A882F1 /* Target_MyCustomer.h */,
+				76AC788E1E640EB900A882F1 /* Target_MyCustomer.m */,
+				76AC78901E64145900A882F1 /* UIDevice+rh_Frame.h */,
+				76AC78911E64145900A882F1 /* UIDevice+rh_Frame.m */,
+				76AC78971E641DCF00A882F1 /* TRZXDVSwitch.h */,
+				76AC78981E641DCF00A882F1 /* TRZXDVSwitch.m */,
+			);
+			path = TRZXMyCustomer;
+			sourceTree = "<group>";
+		};
+		FC50CCFE5F260FE3517DC264 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5D47033BC2377B9D3D362546 /* libPods-TRZXMyCustomer.a */,
+				D648E4422E72BD8E78EBEEDC /* libPods-TRZXMyCustomerTests.a */,
+				8DCF4C1F19607D436DC9BF11 /* libPods-TRZXMyCustomerUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +240,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 76AC78701E64083400A882F1 /* Build configuration list for PBXNativeTarget "TRZXMyCustomer" */;
 			buildPhases = (
+				EB54E0AD8A7409D94602D43D /* [CP] Check Pods Manifest.lock */,
 				76AC783F1E64083400A882F1 /* Sources */,
 				76AC78401E64083400A882F1 /* Frameworks */,
 				76AC78411E64083400A882F1 /* Resources */,
+				E210A129244832C29AD17B4F /* [CP] Embed Pods Frameworks */,
+				A65EDE7519A80708B118A9F8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -164,9 +260,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 76AC78731E64083400A882F1 /* Build configuration list for PBXNativeTarget "TRZXMyCustomerTests" */;
 			buildPhases = (
+				5EB6681341E7C9EC3EE11D66 /* [CP] Check Pods Manifest.lock */,
 				76AC78581E64083400A882F1 /* Sources */,
 				76AC78591E64083400A882F1 /* Frameworks */,
 				76AC785A1E64083400A882F1 /* Resources */,
+				B94B371AD4DD672F5124C219 /* [CP] Embed Pods Frameworks */,
+				61BFD9BBE6BB4A52970B079E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -182,9 +281,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 76AC78761E64083400A882F1 /* Build configuration list for PBXNativeTarget "TRZXMyCustomerUITests" */;
 			buildPhases = (
+				846DE8D20EA01D4EF8C12A11 /* [CP] Check Pods Manifest.lock */,
 				76AC78631E64083400A882F1 /* Sources */,
 				76AC78641E64083400A882F1 /* Frameworks */,
 				76AC78651E64083400A882F1 /* Resources */,
+				195434FFE840DC48335EAE2E /* [CP] Embed Pods Frameworks */,
+				66805732B0426551B861B5FD /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -249,6 +351,7 @@
 				76AC78561E64083400A882F1 /* LaunchScreen.storyboard in Resources */,
 				76AC78531E64083400A882F1 /* Assets.xcassets in Resources */,
 				76AC78511E64083400A882F1 /* Main.storyboard in Resources */,
+				76AC78811E640B4300A882F1 /* TRMyCustomerCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,12 +371,158 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		195434FFE840DC48335EAE2E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TRZXMyCustomerUITests/Pods-TRZXMyCustomerUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5EB6681341E7C9EC3EE11D66 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		61BFD9BBE6BB4A52970B079E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TRZXMyCustomerTests/Pods-TRZXMyCustomerTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		66805732B0426551B861B5FD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TRZXMyCustomerUITests/Pods-TRZXMyCustomerUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		846DE8D20EA01D4EF8C12A11 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A65EDE7519A80708B118A9F8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TRZXMyCustomer/Pods-TRZXMyCustomer-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B94B371AD4DD672F5124C219 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TRZXMyCustomerTests/Pods-TRZXMyCustomerTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E210A129244832C29AD17B4F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TRZXMyCustomer/Pods-TRZXMyCustomer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EB54E0AD8A7409D94602D43D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		76AC783F1E64083400A882F1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76AC787C1E640AA900A882F1 /* TRZXMyCustomerViewController.m in Sources */,
+				76AC788C1E640EA700A882F1 /* CTMediator+MyCustomer.m in Sources */,
+				76AC78841E640B5B00A882F1 /* TRMyCustomerModel.m in Sources */,
+				76AC78991E641DCF00A882F1 /* TRZXDVSwitch.m in Sources */,
+				76AC78871E640B8B00A882F1 /* TRZXCustomerViewModel.m in Sources */,
+				76AC788F1E640EB900A882F1 /* Target_MyCustomer.m in Sources */,
 				76AC784E1E64083400A882F1 /* ViewController.m in Sources */,
+				76AC78801E640B4300A882F1 /* TRMyCustomerCell.m in Sources */,
+				76AC78921E64145900A882F1 /* UIDevice+rh_Frame.m in Sources */,
 				76AC784B1E64083400A882F1 /* AppDelegate.m in Sources */,
 				76AC78481E64083400A882F1 /* main.m in Sources */,
 			);
@@ -422,6 +671,7 @@
 		};
 		76AC78711E64083400A882F1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78706A64703611AFDECEBEBF /* Pods-TRZXMyCustomer.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TRZXMyCustomer/Info.plist;
@@ -433,6 +683,7 @@
 		};
 		76AC78721E64083400A882F1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F4D63863364E71FD296317B /* Pods-TRZXMyCustomer.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TRZXMyCustomer/Info.plist;
@@ -444,6 +695,7 @@
 		};
 		76AC78741E64083400A882F1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 088BA9E20CA94D7383BACFD7 /* Pods-TRZXMyCustomerTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = TRZXMyCustomerTests/Info.plist;
@@ -456,6 +708,7 @@
 		};
 		76AC78751E64083400A882F1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54073DC7A4F6091C4CF4FAB2 /* Pods-TRZXMyCustomerTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = TRZXMyCustomerTests/Info.plist;
@@ -468,6 +721,7 @@
 		};
 		76AC78771E64083400A882F1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 234A9A3973C3A6E42BB81428 /* Pods-TRZXMyCustomerUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = TRZXMyCustomerUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -479,6 +733,7 @@
 		};
 		76AC78781E64083400A882F1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7ECD1E55E9B19B0F58D048EE /* Pods-TRZXMyCustomerUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = TRZXMyCustomerUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -507,6 +762,7 @@
 				76AC78721E64083400A882F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		76AC78731E64083400A882F1 /* Build configuration list for PBXNativeTarget "TRZXMyCustomerTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +771,7 @@
 				76AC78751E64083400A882F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		76AC78761E64083400A882F1 /* Build configuration list for PBXNativeTarget "TRZXMyCustomerUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +780,7 @@
 				76AC78781E64083400A882F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

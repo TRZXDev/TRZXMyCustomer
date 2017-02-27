@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "CTMediator+MyCustomer.h"
 
 @interface ViewController ()
 
@@ -19,7 +20,12 @@
     // Do any additional setup after loading the view, typically from a nib.
 }
 
-
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
+    UIViewController *vc = [[CTMediator sharedInstance]rh_MyCustomer_TRZXMyCustomerViewController:@{@"title":@"我的客户"}];
+                        
+    [self.navigationController pushViewController:vc
+                            animated:YES];
+}
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
