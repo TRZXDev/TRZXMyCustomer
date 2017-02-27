@@ -77,7 +77,6 @@
 		76AC78831E640B5B00A882F1 /* TRMyCustomerModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRMyCustomerModel.m; sourceTree = "<group>"; };
 		76AC78851E640B8B00A882F1 /* TRZXCustomerViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRZXCustomerViewModel.h; sourceTree = "<group>"; };
 		76AC78861E640B8B00A882F1 /* TRZXCustomerViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRZXCustomerViewModel.m; sourceTree = "<group>"; };
-		76AC78891E640C1700A882F1 /* TRZXMyCustomerHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TRZXMyCustomerHeader.h; sourceTree = "<group>"; };
 		76AC788A1E640EA700A882F1 /* CTMediator+MyCustomer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CTMediator+MyCustomer.h"; sourceTree = "<group>"; };
 		76AC788B1E640EA700A882F1 /* CTMediator+MyCustomer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CTMediator+MyCustomer.m"; sourceTree = "<group>"; };
 		76AC788D1E640EB900A882F1 /* Target_MyCustomer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Target_MyCustomer.h; sourceTree = "<group>"; };
@@ -210,7 +209,6 @@
 				76AC78831E640B5B00A882F1 /* TRMyCustomerModel.m */,
 				76AC78851E640B8B00A882F1 /* TRZXCustomerViewModel.h */,
 				76AC78861E640B8B00A882F1 /* TRZXCustomerViewModel.m */,
-				76AC78891E640C1700A882F1 /* TRZXMyCustomerHeader.h */,
 				76AC788A1E640EA700A882F1 /* CTMediator+MyCustomer.h */,
 				76AC788B1E640EA700A882F1 /* CTMediator+MyCustomer.m */,
 				76AC788D1E640EB900A882F1 /* Target_MyCustomer.h */,

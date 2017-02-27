@@ -11,9 +11,12 @@
 #import "TRMyCustomerModel.h"
 #import "TRZXCustomerViewModel.h"
 
-#import "TRZXMyCustomerHeader.h"
 #import "UIDevice+rh_Frame.h"
 #import "TRZXDVSwitch.h"
+#import "MJExtension.h"
+#import "TRZXKit.h"
+#import "MJRefresh.h"
+#import "UIImageView+WebCache.h"
 
 #define MC_SCREEN_WIDTH ([[UIScreen mainScreen] bounds].size.width)
 #define MC_SCREEN_HEIGHT ([[UIScreen mainScreen] bounds].size.height)
