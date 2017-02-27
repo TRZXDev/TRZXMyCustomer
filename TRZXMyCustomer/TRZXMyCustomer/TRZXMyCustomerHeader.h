@@ -14,6 +14,6 @@
 #import "TRZXKit.h"
 #import "MJRefresh.h"
 #import "UIImageView+WebCache.h"
-#import "DVSwitch.h"
+
 
 #endif /* TRZXMyCustomerHeader_h */
