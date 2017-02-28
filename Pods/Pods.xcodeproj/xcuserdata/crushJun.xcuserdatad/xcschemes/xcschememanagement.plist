@@ -49,6 +49,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>TRZXDVSwitch.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>TRZXKit.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -72,22 +77,17 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>08415FA3905298A903BA9E509E8FDE5C</key>
+		<key>2F3954DE224EE3840DE59677E463175D</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>4B71599C73798808CB1F58757D78CCC4</key>
+		<key>334A21BD86C29DE8FAA03E0DDAFC0D49</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>5280EEC6529919459D810090A606AF02</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>8A6B5B30D48102B583D0F6AAA35B552D</key>
+		<key>9B6A0B9808E8B55BE407141B649CFCAD</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -102,7 +102,7 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>9FC7D56832BA9D2A6467BAB73CD62CA9</key>
+		<key>A07DE4FB6A828CB8384A7A8FAC77B4E6</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -117,12 +117,22 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>E26F643ABD9FD6B89BAA51CE8A7D5589</key>
+		<key>D6A7EB0950B126194F11E30F4496EFDC</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E4ACCE136B6282DCEE083F39F86125C7</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
 		<key>E860DBFDF4A7872F6049CBAEAA721AD9</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FA6AAACAD2E0C63DC6274560FAA33729</key>
 		<dict>
 			<key>primary</key>
 			<true/>

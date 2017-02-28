@@ -24,7 +24,6 @@
 		76AC788C1E640EA700A882F1 /* CTMediator+MyCustomer.m in Sources */ = {isa = PBXBuildFile; fileRef = 76AC788B1E640EA700A882F1 /* CTMediator+MyCustomer.m */; };
 		76AC788F1E640EB900A882F1 /* Target_MyCustomer.m in Sources */ = {isa = PBXBuildFile; fileRef = 76AC788E1E640EB900A882F1 /* Target_MyCustomer.m */; };
 		76AC78921E64145900A882F1 /* UIDevice+rh_Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 76AC78911E64145900A882F1 /* UIDevice+rh_Frame.m */; };
-		76AC78991E641DCF00A882F1 /* TRZXDVSwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = 76AC78981E641DCF00A882F1 /* TRZXDVSwitch.m */; };
 		E275D887761968E35B9A0A75 /* libPods-TRZXMyCustomerUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DCF4C1F19607D436DC9BF11 /* libPods-TRZXMyCustomerUITests.a */; };
 		FB1D58F392C390A6F5362A5B /* libPods-TRZXMyCustomer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D47033BC2377B9D3D362546 /* libPods-TRZXMyCustomer.a */; };
 /* End PBXBuildFile section */
@@ -83,8 +82,6 @@
 		76AC788E1E640EB900A882F1 /* Target_MyCustomer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Target_MyCustomer.m; sourceTree = "<group>"; };
 		76AC78901E64145900A882F1 /* UIDevice+rh_Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+rh_Frame.h"; sourceTree = "<group>"; };
 		76AC78911E64145900A882F1 /* UIDevice+rh_Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+rh_Frame.m"; sourceTree = "<group>"; };
-		76AC78971E641DCF00A882F1 /* TRZXDVSwitch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRZXDVSwitch.h; sourceTree = "<group>"; };
-		76AC78981E641DCF00A882F1 /* TRZXDVSwitch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRZXDVSwitch.m; sourceTree = "<group>"; };
 		78706A64703611AFDECEBEBF /* Pods-TRZXMyCustomer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TRZXMyCustomer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TRZXMyCustomer/Pods-TRZXMyCustomer.debug.xcconfig"; sourceTree = "<group>"; };
 		7ECD1E55E9B19B0F58D048EE /* Pods-TRZXMyCustomerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TRZXMyCustomerUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TRZXMyCustomerUITests/Pods-TRZXMyCustomerUITests.release.xcconfig"; sourceTree = "<group>"; };
 		8DCF4C1F19607D436DC9BF11 /* libPods-TRZXMyCustomerUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TRZXMyCustomerUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -215,8 +212,6 @@
 				76AC788E1E640EB900A882F1 /* Target_MyCustomer.m */,
 				76AC78901E64145900A882F1 /* UIDevice+rh_Frame.h */,
 				76AC78911E64145900A882F1 /* UIDevice+rh_Frame.m */,
-				76AC78971E641DCF00A882F1 /* TRZXDVSwitch.h */,
-				76AC78981E641DCF00A882F1 /* TRZXDVSwitch.m */,
 			);
 			path = TRZXMyCustomer;
 			sourceTree = "<group>";
@@ -515,7 +510,6 @@
 				76AC787C1E640AA900A882F1 /* TRZXMyCustomerViewController.m in Sources */,
 				76AC788C1E640EA700A882F1 /* CTMediator+MyCustomer.m in Sources */,
 				76AC78841E640B5B00A882F1 /* TRMyCustomerModel.m in Sources */,
-				76AC78991E641DCF00A882F1 /* TRZXDVSwitch.m in Sources */,
 				76AC78871E640B8B00A882F1 /* TRZXCustomerViewModel.m in Sources */,
 				76AC788F1E640EB900A882F1 /* Target_MyCustomer.m in Sources */,
 				76AC784E1E64083400A882F1 /* ViewController.m in Sources */,

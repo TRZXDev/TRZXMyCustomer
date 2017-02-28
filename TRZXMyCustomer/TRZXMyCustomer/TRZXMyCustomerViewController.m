@@ -292,6 +292,17 @@
 }
 
 
+-(void)setRadius:(CGFloat)cornerRadius view:(UIView *)view{
+    view.layer.cornerRadius = cornerRadius;
+    view.layer.masksToBounds = YES;
+    
+    // 栅格化 - 提高性能
+    // 设置栅格化后，图层会被渲染成图片，并且缓存，再次使用时，不会重新渲染
+    view.layer.rasterizationScale = [UIScreen mainScreen].scale;
+    view.layer.shouldRasterize = YES;
+}
+
+
 /*
  #pragma mark - Navigation
  
@@ -359,10 +370,10 @@
         _switcher = [[TRZXDVSwitch alloc] initWithStringsArray:itemArr];
         if ([UIDevice rh_iPhonesModel]==iPhone5) {
             _switcher.frame = CGRectMake(10, 10, MC_SCREEN_WIDTH -20, 30);
-//            _switcher.kipo_cornerRadius = 14;
+         [self setRadius:14 view:_switcher];
         }else{
             _switcher.frame = CGRectMake(10, 10, MC_SCREEN_WIDTH -20, 41);
-            _switcher.cornerRadius = 19;
+            [self setRadius:19 view:_switcher];
         }
         
         

@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '9FC7D56832BA9D2A6467BAB73CD62CA9'
+               BlueprintIdentifier = 'FA6AAACAD2E0C63DC6274560FAA33729'
                BlueprintName = 'TRZXDIYRefresh'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'libTRZXDIYRefresh.a'>

@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'A07DE4FB6A828CB8384A7A8FAC77B4E6'
-               BlueprintName = 'SDWebImage'
+               BlueprintIdentifier = 'E4ACCE136B6282DCEE083F39F86125C7'
+               BlueprintName = 'TRZXDVSwitch'
                ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'libSDWebImage.a'>
+               BuildableName = 'libTRZXDVSwitch.a'>
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
