@@ -2094,19 +2094,19 @@
 			};
 			name = Debug;
 		};
-		031D6EFA9340423AEF17C02640FF7C04 /* Release */ = {
+		05C5E2EC1B25562FA24C424159195C4F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 70B2AAD70B1B3136C8B127276957BE6D /* TRZXDVSwitch.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/TRZXDVSwitch/TRZXDVSwitch-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PRIVATE_HEADERS_FOLDER_PATH = "";
@@ -2115,7 +2115,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 			};
-			name = Release;
+			name = Debug;
 		};
 		128A5F90790E8EBB6C7E02B8C1E8B925 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -2617,29 +2617,6 @@
 			};
 			name = Debug;
 		};
-		D5ADB9F00FB4CE06258E0E156D02A26B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 70B2AAD70B1B3136C8B127276957BE6D /* TRZXDVSwitch.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/TRZXDVSwitch/TRZXDVSwitch-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
 		DF434D1DD92CB9C730A6FD3A453B6374 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D9700147F75310575A03A0D6EE69615C /* CTMediator.xcconfig */;
@@ -2706,6 +2683,29 @@
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
+		};
+		F7528DABBDF8518E52714D7247E993FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70B2AAD70B1B3136C8B127276957BE6D /* TRZXDVSwitch.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TRZXDVSwitch/TRZXDVSwitch-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
 		};
 		FA1B56281E2CF23435EC1257B5CC53C6 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -2876,8 +2876,8 @@
 		FF740A3B385FEF99AC0464F8232CAE56 /* Build configuration list for PBXNativeTarget "TRZXDVSwitch" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D5ADB9F00FB4CE06258E0E156D02A26B /* Debug */,
-				031D6EFA9340423AEF17C02640FF7C04 /* Release */,
+				05C5E2EC1B25562FA24C424159195C4F /* Debug */,
+				F7528DABBDF8518E52714D7247E993FE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
