@@ -12,7 +12,7 @@
 #import "TRZXCustomerViewModel.h"
 
 #import "UIDevice+rh_Frame.h"
-#import <TRZXDVSwitch/TRZXDVSwitch.h>
+#import "TRZXDVSwitch.h"
 #import <MJExtension/MJExtension.h>
 #import <TRZXKit/TRZXKit.h>
 #import <MJRefresh/MJRefresh.h>
