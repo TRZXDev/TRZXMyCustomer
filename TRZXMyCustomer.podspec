@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "TRZXMyCustomer"
-  s.version      = "0.0.4"
+  s.version      = "0.0.5"
   s.summary      = "TRZXMyCustomer 我的客户组件"
 
   s.homepage     = "https://github.com/TRZXDev/TRZXMyCustomer.git"
@@ -25,6 +25,7 @@ Pod::Spec.new do |s|
   s.dependency 'MJRefresh'
   s.dependency 'SDWebImage'
   s.dependency 'TRZXDIYRefresh'
+  s.dependency 'TRZXDVSwitch'
 
   s.requires_arc = true
 
